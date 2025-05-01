@@ -1,0 +1,85 @@
+
+
+ Vijay Gupta 
+ email:  vijayg963@gmail.com 
+ INTRODUCTION 
+ Software professional with experience working as a full-stack developer in JavaScript-based languages.  Strong collaborator in 
+ cross-functional teams, delivering projects on time. 
+ KEY SKILLS 
+ Programming Languages: 
+ ●  Javascript 
+ Frontend: 
+ ●  React JS, Next JS 
+ ●  ReactQuery 
+ ●  Tailwind CSS 
+ ●  Zustand(State Management) 
+ Backend: 
+ ●  Node Js, Nest Js, Express Js 
+ Database: 
+ ●  MongoDB, PostgresDB 
+ Tools: 
+ ●  AI Tools 
+ ●  GitHub, BitBucket 
+ ●  JIRA 
+ ●  Sentry 
+ EDUCATION 
+ ●  BTech, Geeta group of 
+ institutions, Naultha 
+ ●  CBSE XII, National senior 
+ secondary school, Panipat 
+ ●  CBSE X, National senior 
+ secondary school, Panipat 
+ INTERESTS 
+ ●  Internet surfing about new 
+ technologies 
+ ●  Listing music 
+ ●  Traveling 
+ HCODE TECHNOLOGIES (1 year +)                                                                    Software Engineer 
+ Myosin 
+ A  decentralized  platform  connecting  clients  and  contributors.  Clients  create  projects,  and 
+ members  join  using  MetaMask,  ensuring  secure  payment  upon  completion.  Real-time  chat 
+ (Kafka),  robust  data  (PostgreSQL,  Redis),  and  a  dynamic  UI  (React,  TypeScript)  power  the 
+ platform. 
+ Role and Responsibility: 
+ ●  Developing backend services and implementing them in App as well . 
+ ●  Create projects with their task and update them with drag and drop features. 
+ ●  Mail to users when signup and any project is matched with members. 
+ ●  Cron for all members and Clients for unread messages and notification. 
+ Tools/Technologies used: 
+ ●  NestJS, NodeJS, ReactJS, Tailwind CSS, ReactQuery, Zustand, MagicWallet. 
+ ●  Postgres DB. 
+ ●  Docker, Redis, Kafka 
+ Paytunes(1 years)                                                                                                      React Manager 
+ ShoutL 
+ AI-powered  ad  maker  platform  users  can  create  audio,  banner  and  video  ads  effortlessly 
+ without  any  skill  by  just  giving  a  simple  prompt.  Personalized  audio  messages  and 
+ notifications.  Create  custom  voice  messages  for  marketing.  customer  engagement  and  alert 
+ messages  . 
+ Role and Responsibility: 
+ ● 
+ Developed  a  React.js  app  with  a  focus  on  AI  ads  generation  with  the  feature  of  banner 
+ audio and video ads creation.. 
+ ● 
+ Established  the  infrastructure  for  frontend  applications  with  a  responsive  ui  for  all 
+ devices. 
+ ● 
+ Make  audio  ads  editable  and  customizable  with  trim  and  update  features,  and  users  can 
+ add background music to audio ads. 
+ ●  The banner editor is integrated into the app for editing the banner. 
+ Tools/Technologies used: 
+ ●  React js, Open AI Model, Tailwind CSS, Context API. 
+ ●  PostgresDB. 
+ Technogetic                                                                                                   MERN stack developer 
+ Pythru 
+ A  banking  web  app  solution  for  all  business  payments  with  their  TDS  solution  and  handles 
+ invoice  of  payments.  It's  a  complete  solution  for  business  payment  invoices,  and  it’s  a  one-step 
+ solution for Banking. 
+ Role and Responsibility: 
+ ● 
+ Developed  the  payment  gateway  app  for  business  solutions,  integration  of  the  banking 
+ api with a secure solution. 
+ ●  Payment invoice management and make app user-friendly on different devices 
+ Tools/Technologies used: 
+ ●  React js, RTK query, Tailwind CSS. 
+ ●  PostgresDB. 
+
