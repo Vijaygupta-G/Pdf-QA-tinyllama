@@ -2,8 +2,8 @@ import { NextResponse } from "next/server";
 import { connectToDB } from "@/lib/mongodb";
 import Pdf from "@/models/Pdf";
 import path from "path";
-import {promises as fs } from "fs";
-import pdfParse from "pdf-parse";
+import { promises as fs } from "fs";
+import { savePdfContent } from "@/lib/helper";
 
 export async function POST(req) {
   try {
@@ -14,47 +14,32 @@ export async function POST(req) {
       return NextResponse.json({ error: "No file uploaded" }, { status: 400 });
     }
 
-    const arrayBuffer = await file.arrayBuffer();
-    const buffer = Buffer.from(arrayBuffer);
-
+    // Create data directory if it doesn't exist
     const dataDir = path.join(process.cwd(), "test", "data");
     await fs.mkdir(dataDir, { recursive: true });
 
-    const filePath = path.join(dataDir, `05-versions-space.pdf`);
-    await fs.writeFile(filePath, buffer);
+    // Save PDF file
+    const arrayBuffer = await file.arrayBuffer();
+    const buffer = Buffer.from(arrayBuffer);
+    const pdfPath = path.join(dataDir, file.name);
+    await fs.writeFile(pdfPath, buffer);
 
-    let pdfFile = await fs.readFile(filePath);
-    let pdfData;
-    
-    try {
-      // Properly await the PDF parsing
-      const data = await pdfParse(pdfFile);
-      pdfData = {
-        text: data.text,
-        metadata: data.metadata,
-        numpages: data.numpages
-      };
-    } catch (parseError) {
-      console.error("Error parsing PDF:", parseError);
-      return NextResponse.json(
-        { error: "Failed to parse PDF" },
-        { status: 500 }
-      );
-    }
-
+    // Connect to database
     await connectToDB();
 
-console.log("Db connected", pdfData);
-
+    // Create PDF record
     const saved = await Pdf.create({
       filename: file.name,
-      content: pdfData,
     });
 
+    // Save PDF content as text for RAG
+    await savePdfContent(pdfPath, saved._id);
+
     return NextResponse.json({
-      message: "PDF content saved to MongoDB",
+      message: "PDF content saved successfully",
       id: saved._id,
     });
+
   } catch (error) {
     console.error("Upload error:", error);
     return NextResponse.json({ error: error.message }, { status: 500 });
