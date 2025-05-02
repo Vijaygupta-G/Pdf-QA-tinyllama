@@ -1,15 +1,6 @@
 import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
-import { Pipeline } from '@xenova/transformers';
-import { Document } from 'langchain/document';
-
-// Initialize the embedding model
-let embeddingModel;
-const getEmbeddingModel = async () => {
-  if (!embeddingModel) {
-    embeddingModel = await new Pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
-  }
-  return embeddingModel;
-};
+import { getEmbeddingModel } from './helper';
+// import { Document } from 'langchain/document';
 
 // Split text into chunks
 const splitText = async (text) => {
@@ -23,7 +14,7 @@ const splitText = async (text) => {
 // Generate embeddings for a text chunk
 const generateEmbedding = async (text) => {
   const model = await getEmbeddingModel();
-  const output = await model.process(text);
+  const output = await model(text);
   return Array.from(output.data);
 };
 

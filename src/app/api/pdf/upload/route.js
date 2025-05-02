@@ -3,7 +3,7 @@ import { connectToDB } from "@/lib/mongodb";
 import Pdf from "@/models/Pdf";
 import path from "path";
 import { promises as fs } from "fs";
-import { savePdfContent } from "@/lib/helper";
+import { processPdfForRag } from "@/lib/helper";
 
 export async function POST(req) {
   try {
@@ -24,24 +24,31 @@ export async function POST(req) {
     const pdfPath = path.join(dataDir, file.name);
     await fs.writeFile(pdfPath, buffer);
 
+    // Process PDF for RAG
+    const { rawText, chunks } = await processPdfForRag(pdfPath);
+
     // Connect to database
     await connectToDB();
 
-    // Create PDF record
+    // Create PDF record with RAG data
     const saved = await Pdf.create({
       filename: file.name,
+      rawText,
+      chunks
     });
 
-    // Save PDF content as text for RAG
-    await savePdfContent(pdfPath, saved._id);
+    // Clean up temporary file
+    await fs.unlink(pdfPath);
 
     return NextResponse.json({
-      message: "PDF content saved successfully",
+      message: "PDF processed and saved successfully",
       id: saved._id,
     });
-
   } catch (error) {
     console.error("Upload error:", error);
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    return NextResponse.json(
+      { error: "Failed to process PDF" },
+      { status: 500 }
+    );
   }
 }

@@ -1,85 +1,126 @@
 
 
- Vijay Gupta 
- email:  vijayg963@gmail.com 
- INTRODUCTION 
- Software professional with experience working as a full-stack developer in JavaScript-based languages.  Strong collaborator in 
- cross-functional teams, delivering projects on time. 
- KEY SKILLS 
- Programming Languages: 
- ●  Javascript 
- Frontend: 
- ●  React JS, Next JS 
- ●  ReactQuery 
- ●  Tailwind CSS 
- ●  Zustand(State Management) 
- Backend: 
- ●  Node Js, Nest Js, Express Js 
- Database: 
- ●  MongoDB, PostgresDB 
- Tools: 
- ●  AI Tools 
- ●  GitHub, BitBucket 
- ●  JIRA 
- ●  Sentry 
- EDUCATION 
- ●  BTech, Geeta group of 
- institutions, Naultha 
- ●  CBSE XII, National senior 
- secondary school, Panipat 
- ●  CBSE X, National senior 
- secondary school, Panipat 
- INTERESTS 
- ●  Internet surfing about new 
- technologies 
- ●  Listing music 
- ●  Traveling 
- HCODE TECHNOLOGIES (1 year +)                                                                    Software Engineer 
- Myosin 
- A  decentralized  platform  connecting  clients  and  contributors.  Clients  create  projects,  and 
- members  join  using  MetaMask,  ensuring  secure  payment  upon  completion.  Real-time  chat 
- (Kafka),  robust  data  (PostgreSQL,  Redis),  and  a  dynamic  UI  (React,  TypeScript)  power  the 
- platform. 
- Role and Responsibility: 
- ●  Developing backend services and implementing them in App as well . 
- ●  Create projects with their task and update them with drag and drop features. 
- ●  Mail to users when signup and any project is matched with members. 
- ●  Cron for all members and Clients for unread messages and notification. 
- Tools/Technologies used: 
- ●  NestJS, NodeJS, ReactJS, Tailwind CSS, ReactQuery, Zustand, MagicWallet. 
- ●  Postgres DB. 
- ●  Docker, Redis, Kafka 
- Paytunes(1 years)                                                                                                      React Manager 
- ShoutL 
- AI-powered  ad  maker  platform  users  can  create  audio,  banner  and  video  ads  effortlessly 
- without  any  skill  by  just  giving  a  simple  prompt.  Personalized  audio  messages  and 
- notifications.  Create  custom  voice  messages  for  marketing.  customer  engagement  and  alert 
- messages  . 
- Role and Responsibility: 
- ● 
- Developed  a  React.js  app  with  a  focus  on  AI  ads  generation  with  the  feature  of  banner 
- audio and video ads creation.. 
- ● 
- Established  the  infrastructure  for  frontend  applications  with  a  responsive  ui  for  all 
- devices. 
- ● 
- Make  audio  ads  editable  and  customizable  with  trim  and  update  features,  and  users  can 
- add background music to audio ads. 
- ●  The banner editor is integrated into the app for editing the banner. 
- Tools/Technologies used: 
- ●  React js, Open AI Model, Tailwind CSS, Context API. 
- ●  PostgresDB. 
- Technogetic                                                                                                   MERN stack developer 
- Pythru 
- A  banking  web  app  solution  for  all  business  payments  with  their  TDS  solution  and  handles 
- invoice  of  payments.  It's  a  complete  solution  for  business  payment  invoices,  and  it’s  a  one-step 
- solution for Banking. 
- Role and Responsibility: 
- ● 
- Developed  the  payment  gateway  app  for  business  solutions,  integration  of  the  banking 
- api with a secure solution. 
- ●  Payment invoice management and make app user-friendly on different devices 
- Tools/Technologies used: 
- ●  React js, RTK query, Tailwind CSS. 
- ●  PostgresDB. 
+08/2023 - 01/2025
+03/2021 - 07/2023
+05/2018 - 02/2021
+KapilHans (Sr. Software Engineer)
+kpldeveloper11@gmail.com / +91 7357142217 / Defence Colony, Ambala Cantt, Haryana, India 133001
+Professional Summary
+Dynamic Software Engineer with 8+ years of experience, specializing in
+React.js, Node.js, and PHP. Proven track record in delivering high-quality
+web applications, enhancing productivity through agile methodologies.
+Skilled in team collaboration, client satisfaction, and mentoring junior
+developers. Passionate about building scalable, efficient, and
+user-friendly solutions.
+Work History
+Technogetic pvt. ltd. - Sr. Software Engineer
+Mohali, India
+OLIN All ltd, Israel - Software Engineer
+Tel Aviv, Israel
+WHMCS Global Services pvt. ltd. - Sr. Web Developer
+Mohali, India
+Skills
+GitHub (Code & Projects)
+Directed the creation of scalable web apps utilizing React JS and Node
+JS, boosting user engagement.
+●
+Adopted industry standards in code quality, testing, and
+documentation.
+●
+Implemented frontend systems integrated with backend services,
+ensuring seamless operations.
+●
+Enhanced productivity by actively participating in agile meetings and
+discussions resulting in 20% more output.
+●
+Spearheaded a team project for the development of custom PHP
+applications, enhancing client satisfaction by delivering features on time.
+●
+Oversaw implementation of innovative web solutions by guiding a team
+through the use of PHP and MySQL.
+●
+JavaScript●
+React JS●
+Redux●
+Node JS●
+MongoDB●
+Express.js●
+GraphQL●
+TypeScript●
+Jest●
+GIT●
+ES6●
+Jira●
+Axios●
+PHP●
+WordPress●
+MySQL●
+HTML●
+CSS●
+Bootstrap●
+Tailwind●
+AWS●
+RESTful API integration●
+Code review●
+Debugging techniques●
+https://github.com
+/developerkapil11?tab=repositories
+●
 
+03/2017 - 05/2018
+06/2016 - 03/2017
+VTaurus Technologies pvt. ltd. - PHP Developer
+Panchkula, India
+OMAK Solutions - Junior PHP Developer
+Panchkula, India
+Key Projects
+1. OliveGava
+2. 8Twelve Mortgage
+3. Dibi
+4. Leofresh
+My LinkedIn
+Education
+M.A.I.M.T
+Yamuna Nagar
+Master of Computer Applications
+(MCA)
+G.N.K.C
+Yamuna Nagar
+Bachelor of Science (BSc)
+Designed dynamic web solutions and RESTful interfaces through PHP,
+incorporating several frameworks.
+●
+Optimized development workflows.●
+Contributed to all phases of the software development process,
+specializing in backend PHP.
+●
+Redesigned sites to enhance navigation and improve visual appeal.●
+Description: A science-based, end-to-end carbon footprint management
+solution.
+●
+Role: Full Stack Developer●
+Technologies: React.js, Node.js, MongoDB, Redux, and AWS●
+URL: https://www.olivegaea.com/products/zero-carbon-management-
+accounting-platform
+●
+Description: 8Twelve Mortgage Corp. provides services to clients across
+Canada and help them find the funds to reach their financial goals
+through a refinance, renewal, debt consolidation, and more.
+●
+Role: React Developer●
+Technologies: React.js, Node.js, GraphQL, and AWS.●
+URL: https://8twelve.mortgage/, https://8twelvemortgage.ca/.●
+Description: It Provide the Database to the Customers.●
+Role: Full Stack Developer●
+Technologies: React.js, MongoDB, AWS.●
+URL: https://dibi.one/●
+Description: Leofresh are driven by a relentless passion to supply the
+finest, most tantalizing gourmet products, matching the creativity and
+brilliance of the world's greatest chefs.
+●
+Role: Team Leader (PHP Developer)●
+Technologies: PHP, Wordpress, sql, Priority CRM.●
+URL: https://leofresh.com/●
+https://www.linkedin.com/in/kapil-
+hans-9b121818/
+●
